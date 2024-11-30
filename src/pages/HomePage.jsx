@@ -1,11 +1,11 @@
-import HomePageContent from "../components/HomePageContent"
-import HomePageHeader from "../components/HomePageHeader"
+
+import { Semaforo } from "../components/Semaforo"
+
 
 const HomePage = () => {
     return (
         <>
-        <HomePageHeader />
-        <HomePageContent/>
+        <Semaforo />
         </>
     )
 
