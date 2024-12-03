@@ -17,7 +17,7 @@ export const Boton = ({ colorActivo, setColorActivo }) => {
     }
 
     return (
-        <Button 
+        <Button className="mt-4"
             variant="dark"
             onClick={() => cambiarColores()}
         >Secuencia de luces</Button>
